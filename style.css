@@ -1,4 +1,227 @@
-html, body {
-  height: 100%;
-  width: 100%;
+
+*{  
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+
+} 
+body{
+    background-image: linear-gradient(to right, #2F2325, #8E5D52 );
+
 }
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 20px;
+    padding-left: 50px;    
+    
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 170px;
+
+}
+
+.cabecalho-menu-conteudo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ECD6C4;
+    font-weight: lighter;
+    font-size: 28px;
+    
+}
+
+.cabecalho-menu-conteudo:hover{
+    font-weight: bolder;
+    transition: 200ms linear;
+  
+}
+
+.cabecalho-icone{
+    display: flex;
+    padding-left: 75px;
+    
+}
+
+.l{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 50px;
+    color: #97D4D9;
+
+}
+
+.u{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 50px;
+    color: #FEAFBE;
+
+
+}
+
+.c{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 50px;
+    color: #EFC764;
+
+}
+
+.a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 50px;
+    color: #A45A49;
+
+}
+
+.s{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 50px;
+    color:#ECD6C4 ;
+
+
+}
+.ponto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 50px;
+    color: #EFC764;
+    
+}
+
+
+.conteudo-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: last baseline;
+    padding: 60px;
+    border-top: 1px solid  #FFF2E7;
+    
+}
+
+.conteudo-home-slogan{
+    display: flex;
+    padding-right: 490px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Times, serif;
+    font-weight: bolder;
+    font-style: normal;
+    color: #ECD6C4;
+    animation-duration: 2s;
+    animation-name: subindo;
+
+
+}
+
+
+.linha{
+    position: fixed;
+    border: 0.5px solid  #FFF2E7;
+    width: 100vw;
+}
+
+@keyframes subindo {
+    from {
+        margin-top: 100%;
+      
+    }
+  
+  }
+
+.conteudo-home-img{
+    display: flex;
+    padding-right: 180px;
+    height: 120px;
+    
+
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    padding: 600px;
+
+}
+
+/*  a partir daqui eh o css da aba sobre    */
+
+.conteudo-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    animation-duration: 1.8s;
+    animation-name: subindo;
+  
+}
+
+section{
+display: flex;
+}
+
+.conteudo-sobre-paragrafo{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #ECD6C4;
+   
+
+  
+}
+
+.rodape-sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 700px;
+
+    
+}
+
+/* a partir daqui eh o css da aba contatos*/
+
+
+.conteudo-contato{
+    display: flex;
+    flex-direction: row; 
+    justify-content:center;
+    padding-top: 200px;
+   
+}
+
+.conteudo-contato-email{
+    color:  #ECD6C4;
+}
+
+.rodape-contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 790px;
+
+
+}
+
+
+
+
+
+
+
